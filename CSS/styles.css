@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+.container {
+	font-family: "Lato", sans-serif;
+	text-align: center;
+}
+
+.company-name {
+	font-weight: 500;
+}
+
+.navbar {
+	display: flex;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	color: #ffffff;
+	background-color: #1f8a8a;
+	align-items: center;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+}
+
+.navbar ul {
+	list-style-type: none;
+	display: flex;
+	gap: 1.5rem;
+	align-items: center;
+}
+
+main {
+	background-color: #eef6f5;
+	padding: 1rem;
+	padding-bottom: 2rem;
+}
+
+.navbar,
+h1,
+h2,
+h3,
+h4 {
+	font-family: "Fredoka", sans-serif;
+}
+
+img {
+	width: 40%;
+}
+
+.card-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+	border: 1px solid #ffc94d;
+	border-radius: 10px;
+	background-color: #ffffff;
+	margin: 0.5rem;
+	padding: 0.5rem;
+	padding-top: 0;
+	padding-bottom: 1rem;
+	width: 150px;
+	text-align: left;
+}
+
+.price {
+	color: #1f8a8a;
+}
+
+.buttons li {
+	list-style-type: none;
+	display: inline;
+	background-color: #ffc94d;
+	border-radius: 20px;
+	padding: 0.5rem;
+	margin: 5px;
+	color: #14313a;
+}
+
+.bottom-navbar {
+	background-color: #14313a;
+	color: #ffffff;
+	padding: 1rem;
+	padding-top: 0;
+	padding-bottom: 0;
+	display: flex;
+	justify-content: space-between;
+}
